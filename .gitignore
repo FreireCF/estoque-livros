@@ -1,11 +1,19 @@
+# Cache e metadados do Python
 __pycache__/
-.idea/
-venv/__pycache__/
-venv/bin/
-venv/etc/
-venv/include/
-venv/lib/
-venv/lib64/
-venv/share/
+*.pyc
+*.pyo
+*.pyd
 
+# Configurações de IDEs (como PyCharm ou IntelliJ)
+.idea/
+
+# Ambiente virtual
+venv/
 .pyvenv.cfg
+
+# Logs e temporários
+*.log
+*.sqlite3
+
+# Arquivos de ambiente (como senhas e variáveis)
+.env
